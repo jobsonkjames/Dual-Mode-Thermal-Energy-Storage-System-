@@ -23,9 +23,50 @@ This project demonstrates that with proper architecture, both useful outputs can
 - Target applications: agricultural cold-chain + drying, food processing, building thermal services
  
 ## Prototype
- 
-![Prototype photo](docs/prototype.jpg)
-*Working prototype demonstrating simultaneous hot and cold output*
+## Prototype Development & Experimental Validation
+
+### Dual-Mode Thermal Energy Storage Prototype
+
+<img src="First_experiment.jpg" width="700">
+
+The prototype system was developed to experimentally validate simultaneous useful heating and cooling from a single vapour-compression refrigeration cycle. The setup used a salvaged domestic refrigerator compressor connected to independently accessible hot and cold thermal reservoirs through custom heat exchangers.
+
+The architecture demonstrates the core concept behind dual-output thermal systems: capturing both condenser-side heat and evaporator-side cold simultaneously instead of rejecting one side as waste.
+
+---
+
+### Heat-Insulated Thermal Reservoir & Heating Section
+
+<img src="heat_insulated_box_with_ceramic_wool.jpg" width="700">
+
+The thermal reservoir and heating chamber were constructed using insulated enclosures with ceramic wool thermal insulation to minimise heat loss during operation. Experimental testing focused on validating temperature separation, heat transfer behaviour, and simultaneous thermal storage capability at both ends of the refrigeration cycle.
+
+---
+
+### PCM Integration Experiment
+
+<img src="Experiment_with_PCM.jpg" width="700">
+
+Phase-change material (PCM) integration experiments were conducted to evaluate thermal buffering and energy storage potential within the system. The PCM-based storage concept allows thermal energy to be stored during compressor operation and released later on demand, decoupling cooling/heating production from usage timing.
+
+The long-term system architecture targets:
+- 0–4 °C cold-side storage for agricultural cold-chain applications
+- 60–90 °C hot-side storage for drying and process heat applications
+- Modular deployment where multiple units operate in parallel
+
+---
+
+### Experimental Validation
+
+The prototype experimentally demonstrated:
+
+- Simultaneous hot and cold thermal output from a single refrigeration cycle
+- Hot-side temperatures reaching approximately 70 °C
+- Cold-side temperatures reaching approximately -2 °C
+- Stable thermal separation between both reservoirs
+- Feasibility of integrating thermal storage with a compact heat pump architecture
+
+The experiments validated the feasibility of using one compressor cycle to serve both refrigeration and heating applications simultaneously — forming the basis for future PCM-integrated agricultural cold-chain and drying systems.
  
 ## Methodology
  
